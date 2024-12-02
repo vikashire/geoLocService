@@ -1,0 +1,59 @@
+/* NearestPlacesForm.css */
+
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ebf7ff;
+  height: 88vh; /* Set height to 80% of the viewport height */
+  overflow-y: auto; /* Enable scrolling if content exceeds the height */
+}
+
+.header {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #9dd8ff;
+  font-size: 1rem; /* Ensures consistency */
+  box-sizing: border-box; /* Prevents padding from affecting the size */
+}
+input:focus {
+  border: 1px solid #0075ff; /* Change border color to green when focused */
+  outline: none; /* Optional: Remove the default outline */
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
